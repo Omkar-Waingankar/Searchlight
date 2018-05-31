@@ -1,0 +1,182 @@
+<mods id="id-CREC-2018-01-02-pt1-PgH10432-2" version="3.3" xmlns="http://www.loc.gov/mods/v3" xmlns:exslt="http://exslt.org/common" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-3.xsd">
+<name type="corporate">
+<namepart>United States Government Publishing Office</namepart>
+<role>
+<roleterm authority="marcrelator" type="text">publisher</roleterm>
+<roleterm authority="marcrelator" type="code">pbl</roleterm>
+</role>
+<role>
+<roleterm authority="marcrelator" type="text">distributor</roleterm>
+<roleterm authority="marcrelator" type="code">dst</roleterm>
+</role>
+</name>
+<name type="corporate">
+<namepart>United States</namepart>
+<namepart>Congress</namepart>
+<role>
+<roleterm authority="marcrelator" type="text">author</roleterm>
+<roleterm authority="marcrelator" type="code">aut</roleterm>
+</role>
+<description>Government Organization</description>
+</name>
+<typeofresource>text</typeofresource>
+<genre authority="marcgt">government publication</genre>
+<language>
+<languageterm authority="iso639-2b" type="code">eng</languageterm>
+</language>
+<extension>
+<collectioncode>CREC</collectioncode>
+<category>Proceedings of Congress and General Congressional Publications</category>
+<waisdatabasename>2018_record</waisdatabasename>
+<branch>legislative</branch>
+<dateingested>2018-01-09</dateingested>
+</extension>
+<titleinfo>
+<title>ADDITIONAL SPONSORS</title>
+<partname>House</partname>
+</titleinfo>
+<relateditem type="otherFormat" xlink:href="https://www.gpo.gov/fdsys/pkg/CREC-2018-01-02/html/CREC-2018-01-02-pt1-PgH10432-2.htm">
+<identifier type="FDsys Unique ID">D09002ee197f02f2a</identifier>
+</relateditem>
+<relateditem type="otherFormat" xlink:href="https://www.gpo.gov/fdsys/pkg/CREC-2018-01-02/pdf/CREC-2018-01-02-pt1-PgH10432-2.pdf">
+<identifier type="FDsys Unique ID">D09002ee197f02f3a</identifier>
+</relateditem>
+<identifier type="congressional record citation">163 Cong. Rec. H10432</identifier>
+<identifier type="uri">https://www.gpo.gov/fdsys/granule/CREC-2018-01-02/CREC-2018-01-02-pt1-PgH10432-2</identifier>
+<identifier type="former granule identifier">cr02ja18-23</identifier>
+<location>
+<url access="object in context" displaylabel="Content Detail">https://www.gpo.gov/fdsys/granule/CREC-2018-01-02/CREC-2018-01-02-pt1-PgH10432-2/content-detail.html</url>
+<url access="raw object" displaylabel="PDF rendition">https://www.gpo.gov/fdsys/pkg/CREC-2018-01-02/pdf/CREC-2018-01-02-pt1-PgH10432-2.pdf</url>
+<url access="raw object" displaylabel="HTML rendition">https://www.gpo.gov/fdsys/pkg/CREC-2018-01-02/html/CREC-2018-01-02-pt1-PgH10432-2.htm</url>
+</location>
+<physicaldescription>
+<extent>1 p.</extent>
+</physicaldescription>
+<part type="article">
+<extent unit="pages">
+<start>H10432</start>
+<end>H10432</end>
+</extent>
+</part>
+<identifier type="preferred citation">163 Cong. Rec. H10432</identifier>
+<extension>
+<searchtitle>ADDITIONAL SPONSORS; Congressional Record Vol. 163, No. 215</searchtitle>
+<granuleclass>HOUSE</granuleclass>
+<accessid>CREC-2018-01-02-pt1-PgH10432-2</accessid>
+<subgranuleclass>HADDSPONSORS</subgranuleclass>
+<pageprefix>H</pageprefix>
+<booknumber>1</booknumber>
+<chamber>HOUSE</chamber>
+<granuledate>2018-01-02</granuledate>
+<bill congress="115" context="OTHER" number="1646" type="HR"></bill>
+<bill congress="115" context="OTHER" number="3222" type="HR"></bill>
+<bill congress="115" context="OTHER" number="3637" type="HR"></bill>
+<bill congress="115" context="OTHER" number="4710" type="HR"></bill>
+</extension>
+<relateditem type="isReferencedBy">
+<titleinfo>
+<title>United States House Bill 1646  (115th Congress)</title>
+</titleinfo>
+<identifier type="Congressional Bill citation">H.R. 1646</identifier>
+<extension>
+<congress>115</congress>
+<context>OTHER</context>
+</extension>
+</relateditem>
+<relateditem type="isReferencedBy">
+<titleinfo>
+<title>United States House Bill 3222  (115th Congress)</title>
+</titleinfo>
+<identifier type="Congressional Bill citation">H.R. 3222</identifier>
+<extension>
+<congress>115</congress>
+<context>OTHER</context>
+</extension>
+</relateditem>
+<relateditem type="isReferencedBy">
+<titleinfo>
+<title>United States House Bill 3637  (115th Congress)</title>
+</titleinfo>
+<identifier type="Congressional Bill citation">H.R. 3637</identifier>
+<extension>
+<congress>115</congress>
+<context>OTHER</context>
+</extension>
+</relateditem>
+<relateditem type="isReferencedBy">
+<titleinfo>
+<title>United States House Bill 4710  (115th Congress)</title>
+</titleinfo>
+<identifier type="Congressional Bill citation">H.R. 4710</identifier>
+<extension>
+<congress>115</congress>
+<context>OTHER</context>
+</extension>
+</relateditem>
+<relateditem id="P0b002ee197e846f1" type="host">
+<titleinfo>
+<title>Congressional Record</title>
+<partnumber>Vol. 163, no. 215</partnumber>
+</titleinfo>
+<location>
+<url access="object in context" displaylabel="Content Detail">https://www.gpo.gov/fdsys/pkg/CREC-2018-01-02/content-detail.html</url>
+<url access="raw object" displaylabel="PDF rendition">https://www.gpo.gov/fdsys/pkg/CREC-2018-01-02/pdf/CREC-2018-01-02.pdf</url>
+</location>
+<part type="issue">
+<extent unit="pages">
+<start>H10431</start>
+<end>H10432</end>
+</extent>
+<extent unit="pages">
+<start>S8289</start>
+<end>S8289</end>
+</extent>
+<extent unit="pages">
+<start>E1767</start>
+<end>E1767</end>
+</extent>
+<extent unit="pages">
+<start>D1371</start>
+<end>D1372</end>
+</extent>
+</part>
+<origininfo>
+<publisher>U.S. Government Publishing Office</publisher>
+<dateissued encoding="w3cdtf">2018-01-02</dateissued>
+<issuance>continuing</issuance>
+<frequency authority="marcfrequency">daily</frequency>
+</origininfo>
+<physicaldescription>
+<note type="source content type">deposited</note>
+<digitalorigin>born digital</digitalorigin>
+<extent>12 p.</extent>
+</physicaldescription>
+<classification authority="sudocs">X 1.1/A:</classification>
+<classification authority="sudocs">X/A.</classification>
+<identifier type="uri">https://www.gpo.gov/fdsys/pkg/CREC-2018-01-02</identifier>
+<identifier type="local">P0b002ee197e846f1</identifier>
+<identifier type="stock number">752-002-00000-2</identifier>
+<identifier type="ILS system id">000568013</identifier>
+<identifier type="former package identifier">cr02ja18</identifier>
+<recordinfo>
+<recordcontentsource authority="marcorg">DGPO</recordcontentsource>
+<recordcreationdate encoding="w3cdtf">2018-01-09</recordcreationdate>
+<recordchangedate encoding="w3cdtf">2018-01-09</recordchangedate>
+<recordidentifier source="DGPO">CREC-2018-01-02</recordidentifier>
+<recordorigin>machine generated</recordorigin>
+<languageofcataloging>
+<languageterm authority="iso639-2b" type="code">eng</languageterm>
+</languageofcataloging>
+</recordinfo>
+<accesscondition type="GPO scope determination">fdlp</accesscondition>
+<extension>
+<docclass>CREC</docclass>
+<accessid>CREC-2018-01-02</accessid>
+<volume>163</volume>
+<issue>215</issue>
+<congress>115</congress>
+<session>2</session>
+<bookcount>1</bookcount>
+</extension>
+</relateditem>
+</mods>

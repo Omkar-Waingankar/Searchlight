@@ -1,0 +1,57 @@
+Traceback (most recent call last):
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 441, in wrap_socket
+    cnx.do_handshake()
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/OpenSSL/SSL.py", line 1716, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/OpenSSL/SSL.py", line 1448, in _raise_ssl_error
+    raise SysCallError(errno, errorcode.get(errno))
+OpenSSL.SSL.SysCallError: (54, 'ECONNRESET')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 601, in urlopen
+    chunked=chunked)
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 346, in _make_request
+    self._validate_conn(conn)
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 850, in _validate_conn
+    conn.connect()
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/urllib3/connection.py", line 326, in connect
+    ssl_context=context)
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/urllib3/util/ssl_.py", line 329, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/urllib3/contrib/pyopenssl.py", line 448, in wrap_socket
+    raise ssl.SSLError('bad handshake: %r' % e)
+ssl.SSLError: ("bad handshake: SysCallError(54, 'ECONNRESET')",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 440, in send
+    timeout=timeout
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/urllib3/connectionpool.py", line 639, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/urllib3/util/retry.py", line 388, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.gpo.gov', port=443): Max retries exceeded with url: /fdsys/pkg/CREC-2018-01-09/html/CREC-2018-01-09-pt1-PgH25-2.htm (Caused by SSLError(SSLError("bad handshake: SysCallError(54, 'ECONNRESET')",),))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "newscraper.py", line 128, in <module>
+    text_file_name = extract_text(text_url)
+  File "newscraper.py", line 32, in extract_text
+    extracted_text = extract_text_from_url(url)
+  File "newscraper.py", line 27, in extract_text_from_url
+    stuff = requests.get(url)
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/requests/api.py", line 72, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 508, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/requests/sessions.py", line 618, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/halliday/anaconda3/lib/python3.6/site-packages/requests/adapters.py", line 506, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='www.gpo.gov', port=443): Max retries exceeded with url: /fdsys/pkg/CREC-2018-01-09/html/CREC-2018-01-09-pt1-PgH25-2.htm (Caused by SSLError(SSLError("bad handshake: SysCallError(54, 'ECONNRESET')",),))

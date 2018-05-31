@@ -1,0 +1,4 @@
+2018
+         January
+ERROR CAUGHT: SSLError(MaxRetryError('HTTPSConnectionPool(host=\'www.gpo.gov\', port=443): Max retries exceeded with url: /fdsys/pkg/CREC-2018-01-09/html/CREC-2018-01-09-pt1-PgH25-2.htm (Caused by SSLError(SSLError("bad handshake: SysCallError(54, \'ECONNRESET\')",),))',),)
+Check error_log.txt file for traceback
