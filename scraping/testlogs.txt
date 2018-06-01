@@ -1,9 +1,0 @@
-2018
-         January
-         ERROR
-         No table found at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2018%2F01%2F01-03%5C%2F4%2FHOUSE&granuleId=CREC-2018-01-03-pt2-PgH1-6&packageId=CREC-2018-01-03&fromBrowse=true
-         Attempting to sleep at re-retrieve table
-         Failed to re-retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2018%2F01%2F01-03%5C%2F4%2FHOUSE&granuleId=CREC-2018-01-03-pt2-PgH1-6&packageId=CREC-2018-01-03&fromBrowse=true
-         ERROR
-         Could not extract mods at: https://www.gpo.gov/fdsys/granule/CREC-2018-01-03/CREC-2018-01-03-pt2-PgH1-10/mods.xml
-         Failed to write mods into file. file_name: CREC-2018-01-03-pt2-PgH1-10.xml, url: https://www.gpo.gov/fdsys/granule/CREC-2018-01-03/CREC-2018-01-03-pt2-PgH1-10/mods.xml
