@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "cleanup.py", line 52, in extract_mods
+    file.write(extracted_mods)
+TypeError: write() argument must be str, not None

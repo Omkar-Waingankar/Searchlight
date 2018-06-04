@@ -6,7 +6,7 @@ import traceback
 import time
 
 def log(message):
-    with open("testlogs.txt", "a") as logsfile:
+    with open("cleaned_logs.txt", "a") as logsfile:
         logsfile.write(message + "\n")
 
 def create_text_file_name(url):
@@ -40,6 +40,7 @@ def extract_text(url):
         error_file = open("error_log.txt", "w")
         traceback.print_exc(file=error_file)
     file.close()
+    log("text written")
     return file_name
 
 def extract_mods(url, text_file_name):
@@ -54,7 +55,35 @@ def extract_mods(url, text_file_name):
         error_file = open("error_log.txt", "w")
         traceback.print_exc(file=error_file)
     file.close()
+    log("mods written")
+
+root_url = "https://www.gpo.gov"
 
 try:
-	#use regex to parse the URLS
-	#iterate through urls, saving last couple of files 
+    file = open("./testlogs.txt")
+    file_content = file.read()
+    matches = re.findall("(?<=table at:\s)(.*?)(?=\\n)", file_content)
+    for match in matches:
+        log(match)
+        more_page = requests.get(match)
+        more_soup = BeautifulSoup(more_page.content, 'html.parser')
+        table = more_soup.find('table', class_="page-details-budget-metadata-table")
+        try:
+            leaf_links = table.find_all('a')
+        except Exception as e:
+            log("         " + "ERROR")
+            log("         " + repr(e))
+            log("         " + "Could not retrieve table at: " + str(match))
+            leaf_links = []
+        text_file_name = ""
+        for leaf_link in leaf_links:
+            if leaf_link.text == 'Text':
+                text_url = leaf_link['href']
+                text_file_name = extract_text(text_url)
+            if leaf_link.text == 'MODS':
+                mods_url = leaf_link['href']
+                extract_mods(mods_url, text_file_name)
+except Exception as e:
+    log("         " + "Something really bad happened: " + repr(e))
+    error_file = open("error_log.txt", "w")
+    traceback.print_exc(file=error_file)

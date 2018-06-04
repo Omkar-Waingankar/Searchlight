@@ -1,0 +1,775 @@
+2018
+         January
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2018%2F01%2F01-10%5C%2F4%2FHOUSE&granuleId=CREC-2018-01-10-pt1-PgH93-4&packageId=CREC-2018-01-10&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2018%2F01%2F01-29%5C%2F2%2FHOUSE&granuleId=CREC-2018-01-29-pt1-PgH633-4&packageId=CREC-2018-01-29&fromBrowse=true
+         February
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2018%2F02%2F02-06%5C%2F3%2FHOUSE&granuleId=CREC-2018-02-06-pt1-PgH902-21&packageId=CREC-2018-02-06&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2018%2F02%2F02-26%5C%2F2%2FHOUSE&granuleId=CREC-2018-02-26-pt1-PgH1246&packageId=CREC-2018-02-26&fromBrowse=true
+         March
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2018%2F03%2F03-13%5C%2F3%2FHOUSE&granuleId=CREC-2018-03-13-pt1-PgH1512-8&packageId=CREC-2018-03-13&fromBrowse=true
+         April
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2018%2F04%2F04-17%5C%2F3%2FHOUSE&granuleId=CREC-2018-04-17-pt1-PgH3346-2&packageId=CREC-2018-04-17&fromBrowse=true
+         May
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2018%2F05%2F05-03%5C%2F5%2FHOUSE&granuleId=CREC-2018-05-03-pt1-PgH-FrontMatter&packageId=CREC-2018-05-03&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2018%2F05%2F05-10%5C%2F5%2FHOUSE&granuleId=CREC-2018-05-10-pt1-PgH3927-2&packageId=CREC-2018-05-10&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2018%2F05%2F05-21%5C%2F2%2FHOUSE&granuleId=CREC-2018-05-21-pt1-PgH4261&packageId=CREC-2018-05-21&fromBrowse=true
+2017
+         January
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F01%2F01-12%5C%2F5%2FHOUSE&granuleId=CREC-2017-01-12-pt1-PgH400-8&packageId=CREC-2017-01-12&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F01%2F01-24%5C%2F3%2FHOUSE&granuleId=CREC-2017-01-24-pt1-PgH680-2&packageId=CREC-2017-01-24&fromBrowse=true
+         February
+         March
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F03%2F03-01%5C%2F4%2FHOUSE&granuleId=CREC-2017-03-01-pt1-PgH1449-3&packageId=CREC-2017-03-01&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F03%2F03-21%5C%2F3%2FHOUSE&granuleId=CREC-2017-03-21-pt1-PgH2288-5&packageId=CREC-2017-03-21&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F03%2F03-30%5C%2F5%2FHOUSE&granuleId=CREC-2017-03-30-pt1-PgH2601-3&packageId=CREC-2017-03-30&fromBrowse=true
+         April
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F04%2F04-27%5C%2F5%2FHOUSE&granuleId=CREC-2017-04-27-pt1-PgH2926&packageId=CREC-2017-04-27&fromBrowse=true
+         May
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F05%2F05-19%5C%2F6%2FHOUSE&granuleId=CREC-2017-05-19-pt1-PgH4390-19&packageId=CREC-2017-05-19&fromBrowse=true
+         June
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F06%2F06-22%5C%2F5%2FHOUSE&granuleId=CREC-2017-06-22-pt1-PgH5110-21&packageId=CREC-2017-06-22&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F06%2F06-29%5C%2F5%2FHOUSE&granuleId=CREC-2017-06-29-pt1-PgH5305-10&packageId=CREC-2017-06-29&fromBrowse=true
+         July
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F07%2F07-12%5C%2F4%2FHOUSE&granuleId=CREC-2017-07-12-pt1-PgH5758&packageId=CREC-2017-07-12&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F07%2F07-18%5C%2F3%2FHOUSE&granuleId=CREC-2017-07-18-pt1-PgH5926-6&packageId=CREC-2017-07-18&fromBrowse=true
+         August
+         September
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F09%2F09-26%5C%2F3%2FHOUSE&granuleId=CREC-2017-09-26-pt1-PgH7521-2&packageId=CREC-2017-09-26&fromBrowse=true
+         October
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F10%2F10-24%5C%2F3%2FHOUSE&granuleId=CREC-2017-10-24-pt1-PgH8084-6&packageId=CREC-2017-10-24&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F10%2F10-26%5C%2F5%2FHOUSE&granuleId=CREC-2017-10-26-pt1-PgH8271-20&packageId=CREC-2017-10-26&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F10%2F10-31%5C%2F3%2FHOUSE&granuleId=CREC-2017-10-31-pt1-PgH8288-2&packageId=CREC-2017-10-31&fromBrowse=true
+         November
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F11%2F11-01%5C%2F4%2FHOUSE&granuleId=CREC-2017-11-01-pt1-PgH-FrontMatter&packageId=CREC-2017-11-01&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F11%2F11-01%5C%2F4%2FHOUSE&granuleId=CREC-2017-11-01-pt1-PgH8385-9&packageId=CREC-2017-11-01&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F11%2F11-02%5C%2F5%2FHOUSE&granuleId=CREC-2017-11-02-pt1-PgH8393-7&packageId=CREC-2017-11-02&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F11%2F11-06%5C%2F2%2FHOUSE&granuleId=CREC-2017-11-06-pt1-PgH8501-3&packageId=CREC-2017-11-06&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F11%2F11-09%5C%2F5%2FHOUSE&granuleId=CREC-2017-11-09-pt1-PgH8698-4&packageId=CREC-2017-11-09&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F11%2F11-13%5C%2F2%2FHOUSE&granuleId=CREC-2017-11-13-pt1-PgH9178-7&packageId=CREC-2017-11-13&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F11%2F11-15%5C%2F4%2FHOUSE&granuleId=CREC-2017-11-15-pt1-PgH9365&packageId=CREC-2017-11-15&fromBrowse=true
+         December
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F12%2F12-07%5C%2F5%2FHOUSE&granuleId=CREC-2017-12-07-pt1-PgH9715-4&packageId=CREC-2017-12-07&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F12%2F12-07%5C%2F5%2FHOUSE&granuleId=CREC-2017-12-07-pt1-PgH9757-12&packageId=CREC-2017-12-07&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F12%2F12-18%5C%2F2%2FHOUSE&granuleId=CREC-2017-12-18-pt1-PgH10164-2&packageId=CREC-2017-12-18&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2017%2F12%2F12-19%5C%2F3%2FHOUSE&granuleId=CREC-2017-12-19-pt1-PgH10234&packageId=CREC-2017-12-19&fromBrowse=true
+2016
+         January
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F01%2F01-13%5C%2F4%2FHOUSE&granuleId=CREC-2016-01-13-pt1-PgH356-4&packageId=CREC-2016-01-13&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F01%2F01-13%5C%2F4%2FHOUSE&granuleId=CREC-2016-01-13-pt1-PgH364-17&packageId=CREC-2016-01-13&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F01%2F01-13%5C%2F4%2FHOUSE&granuleId=CREC-2016-01-13-pt1-PgH365&packageId=CREC-2016-01-13&fromBrowse=true
+         February
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F02%2F02-01%5C%2F2%2FHOUSE&granuleId=CREC-2016-02-01-pt1-PgH432-4&packageId=CREC-2016-02-01&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F02%2F02-03%5C%2F4%2FHOUSE&granuleId=CREC-2016-02-03-pt1-PgH505-2&packageId=CREC-2016-02-03&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F02%2F02-03%5C%2F4%2FHOUSE&granuleId=CREC-2016-02-03-pt1-PgH557-3&packageId=CREC-2016-02-03&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F02%2F02-09%5C%2F3%2FHOUSE&granuleId=CREC-2016-02-09-pt1-PgH598-4&packageId=CREC-2016-02-09&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F02%2F02-11%5C%2F5%2FHOUSE&granuleId=CREC-2016-02-11-pt1-PgH718&packageId=CREC-2016-02-11&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F02%2F02-11%5C%2F5%2FHOUSE&granuleId=CREC-2016-02-11-pt1-PgH776&packageId=CREC-2016-02-11&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F02%2F02-23%5C%2F3%2FHOUSE&granuleId=CREC-2016-02-23-pt1-PgH854-9&packageId=CREC-2016-02-23&fromBrowse=true
+         March
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F03%2F03-02%5C%2F4%2FHOUSE&granuleId=CREC-2016-03-02-pt1-PgH1117-4&packageId=CREC-2016-03-02&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F03%2F03-03%5C%2F5%2FHOUSE&granuleId=CREC-2016-03-03-pt1-PgH1145-20&packageId=CREC-2016-03-03&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F03%2F03-07%5C%2F2%2FHOUSE&granuleId=CREC-2016-03-07-pt1-PgH1147-7&packageId=CREC-2016-03-07&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F03%2F03-23%5C%2F4%2FHOUSE&granuleId=CREC-2016-03-23-pt1-PgH1555-2&packageId=CREC-2016-03-23&fromBrowse=true
+         April
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F04%2F04-14%5C%2F5%2FHOUSE&granuleId=CREC-2016-04-14-pt1-PgH1735-2&packageId=CREC-2016-04-14&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F04%2F04-19%5C%2F3%2FHOUSE&granuleId=CREC-2016-04-19-pt1-PgH1812-8&packageId=CREC-2016-04-19&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F04%2F04-20%5C%2F4%2FHOUSE&granuleId=CREC-2016-04-20-pt1-PgH1888&packageId=CREC-2016-04-20&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F04%2F04-26%5C%2F3%2FHOUSE&granuleId=CREC-2016-04-26-pt1-PgH1984&packageId=CREC-2016-04-26&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F04%2F04-29%5C%2F6%2FHOUSE&granuleId=CREC-2016-04-29-pt1-PgH2151-4&packageId=CREC-2016-04-29&fromBrowse=true
+         May
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F05%2F05-24%5C%2F3%2FHOUSE&granuleId=CREC-2016-05-24-pt1-PgH3057-2&packageId=CREC-2016-05-24&fromBrowse=true
+         June
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F06%2F06-07%5C%2F3%2FHOUSE&granuleId=CREC-2016-06-07-pt1-PgH3498&packageId=CREC-2016-06-07&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F06%2F06-13%5C%2F2%2FHOUSE&granuleId=CREC-2016-06-13-pt1-PgH3707-2&packageId=CREC-2016-06-13&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F06%2F06-14%5C%2F3%2FHOUSE&granuleId=CREC-2016-06-14-pt1-PgH3760-2&packageId=CREC-2016-06-14&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F06%2F06-21%5C%2F3%2FHOUSE&granuleId=CREC-2016-06-21-pt1-PgH4051&packageId=CREC-2016-06-21&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F06%2F06-28%5C%2F3%2FHOUSE&granuleId=CREC-2016-06-28-pt1-PgH4187-3&packageId=CREC-2016-06-28&fromBrowse=true
+         July
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F07%2F07-05%5C%2F3%2FHOUSE&granuleId=CREC-2016-07-05-pt1-PgH4276-4&packageId=CREC-2016-07-05&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F07%2F07-13%5C%2F4%2FHOUSE&granuleId=CREC-2016-07-13-pt1-PgH4819-3&packageId=CREC-2016-07-13&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F07%2F07-14%5C%2F5%2FHOUSE&granuleId=CREC-2016-07-14-pt1-PgH4999-2&packageId=CREC-2016-07-14&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F07%2F07-21%5C%2F5%2FHOUSE&granuleId=CREC-2016-07-21-pt1-PgH5025-3&packageId=CREC-2016-07-21&fromBrowse=true
+         August
+         September
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F09%2F09-06%5C%2F3%2FHOUSE&granuleId=CREC-2016-09-06-pt1-PgH5043-8&packageId=CREC-2016-09-06&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F09%2F09-08%5C%2F5%2FHOUSE&granuleId=CREC-2016-09-08-pt1-PgH5220-2&packageId=CREC-2016-09-08&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F09%2F09-08%5C%2F5%2FHOUSE&granuleId=CREC-2016-09-08-pt1-PgH5224-16&packageId=CREC-2016-09-08&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F09%2F09-09%5C%2F6%2FHOUSE&granuleId=CREC-2016-09-09-pt1-PgH5252&packageId=CREC-2016-09-09&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F09%2F09-21%5C%2F4%2FHOUSE&granuleId=CREC-2016-09-21-pt1-PgH5719&packageId=CREC-2016-09-21&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F09%2F09-22%5C%2F5%2FHOUSE&granuleId=CREC-2016-09-22-pt1-PgH5816-3&packageId=CREC-2016-09-22&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F09%2F09-28%5C%2F4%2FHOUSE&granuleId=CREC-2016-09-28-pt1-PgH6015-4&packageId=CREC-2016-09-28&fromBrowse=true
+         October
+         November
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F11%2F11-14%5C%2F2%2FHOUSE&granuleId=CREC-2016-11-14-pt1-PgH6150&packageId=CREC-2016-11-14&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F11%2F11-29%5C%2F3%2FHOUSE&granuleId=CREC-2016-11-29-pt1-PgH6315-2&packageId=CREC-2016-11-29&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2016%2F11%2F11-30%5C%2F4%2FHOUSE&granuleId=CREC-2016-11-30-pt2-PgH7048-7&packageId=CREC-2016-11-30&fromBrowse=true
+         December
+2015
+         January
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F01%2F01-06%5C%2F3%2FHOUSE&granuleId=CREC-2015-01-06-pt1-PgH45-28&packageId=CREC-2015-01-06&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F01%2F01-07%5C%2F4%2FHOUSE&granuleId=CREC-2015-01-07-pt1-PgH94-6&packageId=CREC-2015-01-07&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F01%2F01-14%5C%2F4%2FHOUSE&granuleId=CREC-2015-01-14-pt1-PgH396-2&packageId=CREC-2015-01-14&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F01%2F01-16%5C%2F6%2FHOUSE&granuleId=CREC-2015-01-16-pt1-PgH412-10&packageId=CREC-2015-01-16&fromBrowse=true
+         February
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F02%2F02-12%5C%2F5%2FHOUSE&granuleId=CREC-2015-02-12-pt1-PgH1037-5&packageId=CREC-2015-02-12&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F02%2F02-13%5C%2F6%2FHOUSE&granuleId=CREC-2015-02-13-pt1-PgH1070-5&packageId=CREC-2015-02-13&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F02%2F02-27%5C%2F6%2FHOUSE&granuleId=CREC-2015-02-27-pt1-PgH1494-2&packageId=CREC-2015-02-27&fromBrowse=true
+         March
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F03%2F03-02%5C%2F2%2FHOUSE&granuleId=CREC-2015-03-02-pt1-PgH1526&packageId=CREC-2015-03-02&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F03%2F03-19%5C%2F5%2FHOUSE&granuleId=CREC-2015-03-19-pt1-PgH1806-10&packageId=CREC-2015-03-19&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F03%2F03-23%5C%2F2%2FHOUSE&granuleId=CREC-2015-03-23-pt1-PgH1849-24&packageId=CREC-2015-03-23&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F03%2F03-26%5C%2F5%2FHOUSE&granuleId=CREC-2015-03-26-pt1-PgH2093-3&packageId=CREC-2015-03-26&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F03%2F03-26%5C%2F5%2FHOUSE&granuleId=CREC-2015-03-26-pt1-PgH2112-14&packageId=CREC-2015-03-26&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F03%2F03-26%5C%2F5%2FHOUSE&granuleId=CREC-2015-03-26-pt1-PgH2115&packageId=CREC-2015-03-26&fromBrowse=true
+         April
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F04%2F04-13%5C%2F2%2FHOUSE&granuleId=CREC-2015-04-13-pt1-PgH2126-2&packageId=CREC-2015-04-13&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F04%2F04-16%5C%2F5%2FHOUSE&granuleId=CREC-2015-04-16-pt1-PgH2308-3&packageId=CREC-2015-04-16&fromBrowse=true
+         May
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F05%2F05-13%5C%2F4%2FHOUSE&granuleId=CREC-2015-05-13-pt1-PgH2887&packageId=CREC-2015-05-13&fromBrowse=true
+         June
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F06%2F06-04%5C%2F5%2FHOUSE&granuleId=CREC-2015-06-04-pt1-PgH3909&packageId=CREC-2015-06-04&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F06%2F06-15%5C%2F2%2FHOUSE&granuleId=CREC-2015-06-15-pt1-PgH4349&packageId=CREC-2015-06-15&fromBrowse=true
+         July
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F07%2F07-23%5C%2F5%2FHOUSE&granuleId=CREC-2015-07-23-pt1-PgH5463&packageId=CREC-2015-07-23&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2015%2F07%2F07-28%5C%2F3%2FHOUSE&granuleId=CREC-2015-07-28-pt1-PgH5590-3&packageId=CREC-2015-07-28&fromBrowse=true
+         August
+         September
+         October
+         November
+         December
+2014
+         January
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2014%2F01%2F01-21%5C%2F3%2FHOUSE&granuleId=CREC-2014-01-21-pt1-PgH1247-9&packageId=CREC-2014-01-21&fromBrowse=true
+         February
+         March
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2014%2F03%2F03-04%5C%2F3%2FHOUSE&granuleId=CREC-2014-03-04-pt1-PgH2146&packageId=CREC-2014-03-04&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2014%2F03%2F03-25%5C%2F3%2FHOUSE&granuleId=CREC-2014-03-25-pt1-PgH2645&packageId=CREC-2014-03-25&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2014%2F03%2F03-26%5C%2F4%2FHOUSE&granuleId=CREC-2014-03-26-pt1-PgH2660-4&packageId=CREC-2014-03-26&fromBrowse=true
+         April
+         May
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2014%2F05%2F05-01%5C%2F5%2FHOUSE&granuleId=CREC-2014-05-01-pt1-PgH3395-4&packageId=CREC-2014-05-01&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2014%2F05%2F05-13%5C%2F3%2FHOUSE&granuleId=CREC-2014-05-13-pt1-PgH4064-8&packageId=CREC-2014-05-13&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2014%2F05%2F05-30%5C%2F6%2FHOUSE&granuleId=CREC-2014-05-30-pt1-PgH5065-4&packageId=CREC-2014-05-30&fromBrowse=true
+         June
+         July
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2014%2F07%2F07-15%5C%2F3%2FHOUSE&granuleId=CREC-2014-07-15-pt1-PgH6261-3&packageId=CREC-2014-07-15&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2014%2F07%2F07-16%5C%2F4%2FHOUSE&granuleId=CREC-2014-07-16-pt1-PgH6299-3&packageId=CREC-2014-07-16&fromBrowse=true
+         August
+         September
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2014%2F09%2F09-17%5C%2F4%2FHOUSE&granuleId=CREC-2014-09-17-pt1-PgH7629-6&packageId=CREC-2014-09-17&fromBrowse=true
+         October
+         November
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2014%2F11%2F11-14%5C%2F6%2FHOUSE&granuleId=CREC-2014-11-14-pt1-PgH7996-13&packageId=CREC-2014-11-14&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2014%2F11%2F11-20%5C%2F5%2FHOUSE&granuleId=CREC-2014-11-20-pt1-PgH8170-9&packageId=CREC-2014-11-20&fromBrowse=true
+         December
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2014%2F12%2F12-03%5C%2F4%2FHOUSE&granuleId=CREC-2014-12-03-pt1-PgH8344-4&packageId=CREC-2014-12-03&fromBrowse=true
+2013
+         January
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2013%2F01%2F01-23%5C%2F4%2FHOUSE&granuleId=CREC-2013-01-23-pt1-PgH282-14&packageId=CREC-2013-01-23&fromBrowse=true
+         February
+         March
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2013%2F03%2F03-15%5C%2F6%2FHOUSE&granuleId=CREC-2013-03-15-pt1-PgH1549-16&packageId=CREC-2013-03-15&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2013%2F03%2F03-20%5C%2F4%2FHOUSE&granuleId=CREC-2013-03-20-pt1-PgH1641&packageId=CREC-2013-03-20&fromBrowse=true
+         April
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2013%2F04%2F04-09%5C%2F3%2FHOUSE&granuleId=CREC-2013-04-09-pt1-PgH1843&packageId=CREC-2013-04-09&fromBrowse=true
+         May
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2013%2F05%2F05-17%5C%2F6%2FHOUSE&granuleId=CREC-2013-05-17-pt1-PgH2721-6&packageId=CREC-2013-05-17&fromBrowse=true
+         June
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2013%2F06%2F06-04%5C%2F3%2FHOUSE&granuleId=CREC-2013-06-04-pt1-PgH3024-7&packageId=CREC-2013-06-04&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2013%2F06%2F06-11%5C%2F3%2FHOUSE&granuleId=CREC-2013-06-11-pt1-PgH3287&packageId=CREC-2013-06-11&fromBrowse=true
+         July
+         August
+         September
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2013%2F09%2F09-30%5C%2F2%2FHOUSE&granuleId=CREC-2013-09-30-pt1-PgH6052-11&packageId=CREC-2013-09-30&fromBrowse=true
+         October
+         November
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2013%2F11%2F11-13%5C%2F4%2FHOUSE&granuleId=CREC-2013-11-13-pt1-PgH7002-2&packageId=CREC-2013-11-13&fromBrowse=true
+         December
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2013%2F12%2F12-11%5C%2F4%2FHOUSE&granuleId=CREC-2013-12-11-pt1-PgH7639&packageId=CREC-2013-12-11&fromBrowse=true
+2012
+         January
+         February
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2012%2F02%2F02-16%5C%2F5%2FHOUSE&granuleId=CREC-2012-02-16-pt1-PgH808&packageId=CREC-2012-02-16&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2012%2F02%2F02-16%5C%2F5%2FHOUSE&granuleId=CREC-2012-02-16-pt1-PgH887-2&packageId=CREC-2012-02-16&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2012%2F02%2F02-29%5C%2F4%2FHOUSE&granuleId=CREC-2012-02-29-pt1-PgH1022-2&packageId=CREC-2012-02-29&fromBrowse=true
+         March
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2012%2F03%2F03-26%5C%2F2%2FHOUSE&granuleId=CREC-2012-03-26-pt1-PgH1559-2&packageId=CREC-2012-03-26&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2012%2F03%2F03-29%5C%2F5%2FHOUSE&granuleId=CREC-2012-03-29-pt1-PgH1807-9&packageId=CREC-2012-03-29&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2012%2F03%2F03-30%5C%2F6%2FHOUSE&granuleId=CREC-2012-03-30-pt1-PgH1810-3&packageId=CREC-2012-03-30&fromBrowse=true
+         April
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2012%2F04%2F04-23%5C%2F2%2FHOUSE&granuleId=CREC-2012-04-23-pt1-PgH2035-5&packageId=CREC-2012-04-23&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2012%2F04%2F04-24%5C%2F3%2FHOUSE&granuleId=CREC-2012-04-24-pt1-PgH2045-3&packageId=CREC-2012-04-24&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2012%2F04%2F04-24%5C%2F3%2FHOUSE&granuleId=CREC-2012-04-24-pt1-PgH2069-2&packageId=CREC-2012-04-24&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2012%2F04%2F04-26%5C%2F5%2FHOUSE&granuleId=CREC-2012-04-26-pt1-PgH2210-25&packageId=CREC-2012-04-26&fromBrowse=true
+         May
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2012%2F05%2F05-08%5C%2F3%2FHOUSE&granuleId=CREC-2012-05-08-pt1-PgH2337-3&packageId=CREC-2012-05-08&fromBrowse=true
+         June
+         July
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2012%2F07%2F07-24%5C%2F3%2FHOUSE&granuleId=CREC-2012-07-24-pt1-PgH5167&packageId=CREC-2012-07-24&fromBrowse=true
+         August
+         September
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2012%2F09%2F09-21%5C%2F6%2FHOUSE&granuleId=CREC-2012-09-21-pt1-PgH6277-13&packageId=CREC-2012-09-21&fromBrowse=true
+         October
+         November
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2012%2F11%2F11-29%5C%2F5%2FHOUSE&granuleId=CREC-2012-11-29-pt1-PgH6516-6&packageId=CREC-2012-11-29&fromBrowse=true
+         December
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2012%2F12%2F12-31%5C%2F2%2FHOUSE&granuleId=CREC-2012-12-31-pt1-PgH7479&packageId=CREC-2012-12-31&fromBrowse=true
+2011
+         January
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2011%2F01%2F01-05%5C%2F4%2FHOUSE&granuleId=CREC-2011-01-05-pt1-PgH42-11&packageId=CREC-2011-01-05&fromBrowse=true
+         February
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2011%2F02%2F02-28%5C%2F2%2FHOUSE&granuleId=CREC-2011-02-28-pt1-PgH1366&packageId=CREC-2011-02-28&fromBrowse=true
+         March
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2011%2F03%2F03-10%5C%2F5%2FHOUSE&granuleId=CREC-2011-03-10-pt1-PgH1725-8&packageId=CREC-2011-03-10&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2011%2F03%2F03-30%5C%2F4%2FHOUSE&granuleId=CREC-2011-03-30-pt1-PgH2045-2&packageId=CREC-2011-03-30&fromBrowse=true
+         April
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2011%2F04%2F04-08%5C%2F6%2FHOUSE&granuleId=CREC-2011-04-08-pt1-PgH2549-3&packageId=CREC-2011-04-08&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2011%2F04%2F04-12%5C%2F3%2FHOUSE&granuleId=CREC-2011-04-12-pt1-PgH2588-4&packageId=CREC-2011-04-12&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2011%2F04%2F04-13%5C%2F4%2FHOUSE&granuleId=CREC-2011-04-13-pt1-PgH2666-15&packageId=CREC-2011-04-13&fromBrowse=true
+         May
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2011%2F05%2F05-24%5C%2F3%2FHOUSE&granuleId=CREC-2011-05-24-pt1-PgH3396&packageId=CREC-2011-05-24&fromBrowse=true
+         June
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2011%2F06%2F06-15%5C%2F4%2FHOUSE&granuleId=CREC-2011-06-15-pt1-PgH4239-4&packageId=CREC-2011-06-15&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2011%2F06%2F06-21%5C%2F3%2FHOUSE&granuleId=CREC-2011-06-21-pt1-PgH4362-2&packageId=CREC-2011-06-21&fromBrowse=true
+         July
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2011%2F07%2F07-06%5C%2F4%2FHOUSE&granuleId=CREC-2011-07-06-pt1-PgH4591-5&packageId=CREC-2011-07-06&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2011%2F07%2F07-08%5C%2F6%2FHOUSE&granuleId=CREC-2011-07-08-pt1-PgH4793-3&packageId=CREC-2011-07-08&fromBrowse=true
+         August
+         September
+         October
+         November
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2011%2F11%2F11-10%5C%2F5%2FHOUSE&granuleId=CREC-2011-11-10-pt1-PgH7405-4&packageId=CREC-2011-11-10&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2011%2F11%2F11-14%5C%2F2%2FHOUSE&granuleId=CREC-2011-11-14-pt1-PgH7420-4&packageId=CREC-2011-11-14&fromBrowse=true
+         December
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2011%2F12%2F12-07%5C%2F4%2FHOUSE&granuleId=CREC-2011-12-07-pt1-PgH8198&packageId=CREC-2011-12-07&fromBrowse=true
+2010
+         January
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2010%2F01%2F01-12%5C%2F3%2FHOUSE&granuleId=CREC-2010-01-12-pt1-PgH13-5&packageId=CREC-2010-01-12&fromBrowse=true
+         February
+         March
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2010%2F03%2F03-02%5C%2F3%2FHOUSE&granuleId=CREC-2010-03-02-pt1-PgH1024-4&packageId=CREC-2010-03-02&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2010%2F03%2F03-21%5C%2F1%2FHOUSE&granuleId=CREC-2010-03-21-pt1-PgH1819&packageId=CREC-2010-03-21&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2010%2F03%2F03-22%5C%2F2%2FHOUSE&granuleId=CREC-2010-03-22-pt1-PgH2181&packageId=CREC-2010-03-22&fromBrowse=true
+         April
+         May
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2010%2F05%2F05-19%5C%2F4%2FHOUSE&granuleId=CREC-2010-05-19-pt1-PgH3547-2&packageId=CREC-2010-05-19&fromBrowse=true
+         June
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2010%2F06%2F06-17%5C%2F5%2FHOUSE&granuleId=CREC-2010-06-17-pt1-PgH4599-9&packageId=CREC-2010-06-17&fromBrowse=true
+         July
+         August
+         September
+         October
+         November
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2010%2F11%2F11-16%5C%2F3%2FHOUSE&granuleId=CREC-2010-11-16-pt1-PgH7471&packageId=CREC-2010-11-16&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2010%2F11%2F11-30%5C%2F3%2FHOUSE&granuleId=CREC-2010-11-30-pt1-PgH7742-6&packageId=CREC-2010-11-30&fromBrowse=true
+         December
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2010%2F12%2F12-08%5C%2F4%2FHOUSE&granuleId=CREC-2010-12-08-pt1-PgH8112-2&packageId=CREC-2010-12-08&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2010%2F12%2F12-15%5C%2F4%2FHOUSE&granuleId=CREC-2010-12-15-pt1-PgH8410&packageId=CREC-2010-12-15&fromBrowse=true
+2009
+         January
+         February
+         March
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2009%2F03%2F03-12%5C%2F5%2FHOUSE&granuleId=CREC-2009-03-12-pt1-PgH3376-3&packageId=CREC-2009-03-12&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2009%2F03%2F03-18%5C%2F4%2FHOUSE&granuleId=CREC-2009-03-18-pt1-PgH3530&packageId=CREC-2009-03-18&fromBrowse=true
+         April
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2009%2F04%2F04-23%5C%2F5%2FHOUSE&granuleId=CREC-2009-04-23-pt1-PgH4720-2&packageId=CREC-2009-04-23&fromBrowse=true
+         May
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2009%2F05%2F05-13%5C%2F4%2FHOUSE&granuleId=CREC-2009-05-13-pt1-PgH5554-6&packageId=CREC-2009-05-13&fromBrowse=true
+         June
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2009%2F06%2F06-19%5C%2F6%2FHOUSE&granuleId=CREC-2009-06-19-pt1-PgH7067-8&packageId=CREC-2009-06-19&fromBrowse=true
+         July
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2009%2F07%2F07-08%5C%2F4%2FHOUSE&granuleId=CREC-2009-07-08-pt1-PgH7745-6&packageId=CREC-2009-07-08&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2009%2F07%2F07-08%5C%2F4%2FHOUSE&granuleId=CREC-2009-07-08-pt1-PgH7835-3&packageId=CREC-2009-07-08&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2009%2F07%2F07-27%5C%2F2%2FHOUSE&granuleId=CREC-2009-07-27-pt1-PgH8813-3&packageId=CREC-2009-07-27&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2009%2F07%2F07-27%5C%2F2%2FHOUSE&granuleId=CREC-2009-07-27-pt1-PgH8854&packageId=CREC-2009-07-27&fromBrowse=true
+         August
+         September
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2009%2F09%2F09-15%5C%2F3%2FHOUSE&granuleId=CREC-2009-09-15-pt1-PgH9499-7&packageId=CREC-2009-09-15&fromBrowse=true
+         October
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2009%2F10%2F10-14%5C%2F4%2FHOUSE&granuleId=CREC-2009-10-14-pt1-PgH11303-3&packageId=CREC-2009-10-14&fromBrowse=true
+         November
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2009%2F11%2F11-03%5C%2F3%2FHOUSE&granuleId=CREC-2009-11-03-pt1-PgH12217-7&packageId=CREC-2009-11-03&fromBrowse=true
+         December
+2008
+         January
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2008%2F01%2F01-22%5C%2F3%2FHOUSE&granuleId=CREC-2008-01-22-pt1-PgH354-2&packageId=CREC-2008-01-22&fromBrowse=true
+         February
+         March
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2008%2F03%2F03-04%5C%2F3%2FHOUSE&granuleId=CREC-2008-03-04-pt1-PgH1204&packageId=CREC-2008-03-04&fromBrowse=true
+         April
+         May
+         June
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2008%2F06%2F06-03%5C%2F3%2FHOUSE&granuleId=CREC-2008-06-03-pt1-PgH4835-6&packageId=CREC-2008-06-03&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2008%2F06%2F06-09%5C%2F2%2FHOUSE&granuleId=CREC-2008-06-09-pt1-PgH5086-2&packageId=CREC-2008-06-09&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2008%2F06%2F06-17%5C%2F3%2FHOUSE&granuleId=CREC-2008-06-17-pt1-PgH5458&packageId=CREC-2008-06-17&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2008%2F06%2F06-25%5C%2F4%2FHOUSE&granuleId=CREC-2008-06-25-pt1-PgH6012-6&packageId=CREC-2008-06-25&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2008%2F06%2F06-25%5C%2F4%2FHOUSE&granuleId=CREC-2008-06-25-pt1-PgH6086-3&packageId=CREC-2008-06-25&fromBrowse=true
+         July
+         August
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2008%2F08%2F08-01%5C%2F6%2FHOUSE&granuleId=CREC-2008-08-01-pt1-PgH7793-2&packageId=CREC-2008-08-01&fromBrowse=true
+         September
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2008%2F09%2F09-10%5C%2F4%2FHOUSE&granuleId=CREC-2008-09-10-pt1-PgH7959&packageId=CREC-2008-09-10&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2008%2F09%2F09-29%5C%2F2%2FHOUSE&granuleId=CREC-2008-09-29-pt1-PgH10637&packageId=CREC-2008-09-29&fromBrowse=true
+         October
+         November
+         December
+2007
+         January
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F01%2F01-16%5C%2F3%2FHOUSE&granuleId=CREC-2007-01-16-pt1-PgH536-2&packageId=CREC-2007-01-16&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F01%2F01-17%5C%2F4%2FHOUSE&granuleId=CREC-2007-01-17-pt1-PgH-FrontMatter&packageId=CREC-2007-01-17&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F01%2F01-18%5C%2F5%2FHOUSE&granuleId=CREC-2007-01-18-pt1-PgH731-2&packageId=CREC-2007-01-18&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F01%2F01-19%5C%2F6%2FHOUSE&granuleId=CREC-2007-01-19-pt1-PgH762-4&packageId=CREC-2007-01-19&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F01%2F01-31%5C%2F4%2FHOUSE&granuleId=CREC-2007-01-31-pt1-PgH1148-2&packageId=CREC-2007-01-31&fromBrowse=true
+         February
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F02%2F02-05%5C%2F2%2FHOUSE&granuleId=CREC-2007-02-05-pt1-PgH1173-3&packageId=CREC-2007-02-05&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F02%2F02-28%5C%2F4%2FHOUSE&granuleId=CREC-2007-02-28-pt1-PgH1979-8&packageId=CREC-2007-02-28&fromBrowse=true
+         March
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F03%2F03-05%5C%2F2%2FHOUSE&granuleId=CREC-2007-03-05-pt1-PgH2134&packageId=CREC-2007-03-05&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F03%2F03-05%5C%2F2%2FHOUSE&granuleId=CREC-2007-03-05-pt1-PgH2156&packageId=CREC-2007-03-05&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F03%2F03-12%5C%2F2%2FHOUSE&granuleId=CREC-2007-03-12-pt1-PgH2420-2&packageId=CREC-2007-03-12&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F03%2F03-29%5C%2F5%2FHOUSE&granuleId=CREC-2007-03-29-pt1-PgH3281-5&packageId=CREC-2007-03-29&fromBrowse=true
+         April
+         May
+         June
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F06%2F06-18%5C%2F2%2FHOUSE&granuleId=CREC-2007-06-18-pt1-PgH6633-3&packageId=CREC-2007-06-18&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F06%2F06-28%5C%2F5%2FHOUSE&granuleId=CREC-2007-06-28-pt1-PgH7433&packageId=CREC-2007-06-28&fromBrowse=true
+         July
+         August
+         September
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F09%2F09-25%5C%2F3%2FHOUSE&granuleId=CREC-2007-09-25-pt1-PgH10798-2&packageId=CREC-2007-09-25&fromBrowse=true
+         October
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F10%2F10-05%5C%2F6%2FHOUSE&granuleId=CREC-2007-10-05-pt1-PgH11320&packageId=CREC-2007-10-05&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F10%2F10-16%5C%2F3%2FHOUSE&granuleId=CREC-2007-10-16-pt1-PgH11554&packageId=CREC-2007-10-16&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F10%2F10-22%5C%2F2%2FHOUSE&granuleId=CREC-2007-10-22-pt1-PgH11843-3&packageId=CREC-2007-10-22&fromBrowse=true
+         November
+         December
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F12%2F12-05%5C%2F4%2FHOUSE&granuleId=CREC-2007-12-05-pt1-PgH14170&packageId=CREC-2007-12-05&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F12%2F12-11%5C%2F3%2FHOUSE&granuleId=CREC-2007-12-11-pt1-PgH15318-2&packageId=CREC-2007-12-11&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2007%2F12%2F12-13%5C%2F5%2FHOUSE&granuleId=CREC-2007-12-13-pt1-PgH15449-2&packageId=CREC-2007-12-13&fromBrowse=true
+2006
+         January
+         February
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2006%2F02%2F02-14%5C%2F3%2FHOUSE&granuleId=CREC-2006-02-14-pt1-PgH229&packageId=CREC-2006-02-14&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2006%2F02%2F02-16%5C%2F5%2FHOUSE&granuleId=CREC-2006-02-16-pt1-PgH359-5&packageId=CREC-2006-02-16&fromBrowse=true
+         March
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2006%2F03%2F03-02%5C%2F5%2FHOUSE&granuleId=CREC-2006-03-02-pt1-PgH543&packageId=CREC-2006-03-02&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2006%2F03%2F03-08%5C%2F4%2FHOUSE&granuleId=CREC-2006-03-08-pt1-PgH651-4&packageId=CREC-2006-03-08&fromBrowse=true
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2006%2F03%2F03-16%5C%2F5%2FHOUSE&granuleId=CREC-2006-03-16-pt1-PgH1122-3&packageId=CREC-2006-03-16&fromBrowse=true
+         April
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2006%2F04%2F04-27%5C%2F5%2FHOUSE&granuleId=CREC-2006-04-27-pt1-PgH1873-2&packageId=CREC-2006-04-27&fromBrowse=true
+         May
+         June
+         ERROR
+         AttributeError("'NoneType' object has no attribute 'find_all'",)
+         Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2006%2F06%2F06-19%5C%2F2%2FHOUSE&granuleId=CREC-2006-06-19-pt1-PgH4203-5&packageId=CREC-2006-06-19&fromBrowse=true
+         July
