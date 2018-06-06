@@ -773,3 +773,5 @@
          AttributeError("'NoneType' object has no attribute 'find_all'",)
          Could not retrieve table at: https://www.gpo.gov/fdsys/search/pagedetails.action?collectionCode=CREC&browsePath=2006%2F06%2F06-19%5C%2F2%2FHOUSE&granuleId=CREC-2006-06-19-pt1-PgH4203-5&packageId=CREC-2006-06-19&fromBrowse=true
          July
+1999
+         January

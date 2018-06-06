@@ -73,6 +73,7 @@ try:
     page = requests.get('https://www.gpo.gov/fdsys/browse/collection.action?collectionCode=CREC')
     soup = BeautifulSoup(page.content, 'html.parser')
     years = soup.find_all('div', class_='level1')
+    years = years[19:]
     for year in years:
         try:
             log(year.text.strip())
