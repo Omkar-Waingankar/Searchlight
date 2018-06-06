@@ -7,6 +7,13 @@ import urllib
 from bs4 import BeautifulSoup as Soup
 import os
 from pathlib import Path
+import sys
+import traceback
+import time
+
+def log(message):
+    with open("logs.txt", "a") as logsfile:
+        logsfile.write(message + "\n") 
 
 #master mods parsing methods
 
@@ -35,7 +42,8 @@ def get_authority_id(cong_member_tag):
     try:
         return cong_member_tag.attrs['authorityid']
     except:
-        print("auth id not found")
+        log("                " + "auth id not found")
+        log("                " + str(cong_member_tag))
         return None
 
 def get_bioguide_id(cong_member_tag):
@@ -73,8 +81,8 @@ def get_district(cong_member_extension):
 def get_first_name(cong_member_tag):
     name_tag_arr = cong_member_tag.select("name[type='authority-fnf']")
     if name_tag_arr == []:
-        print("no first_name")
-        print(cong_member_tag)
+        log("                " + "no first_name")
+        log("                " + str(cong_member_tag))
         return 'N/A'
     name_tag = name_tag_arr[0]
     first_name = name_tag.text.split()[0]
@@ -83,8 +91,8 @@ def get_first_name(cong_member_tag):
 def get_last_name(cong_member_tag):
     name_tag_arr = cong_member_tag.select("name[type='authority-lnf']")
     if name_tag_arr == []:
-        print("no first_name")
-        print(cong_member_tag)
+        # log("                " + "no last_name")
+        # log("                " + str(cong_member_tag))
         return 'N/A'
     name_tag = name_tag_arr[0]
     full_name = name_tag.string
@@ -148,6 +156,8 @@ def fix_surname_typos(name):
     	return 'MERKLEY'
     if name == 'BLUMENTAL':
     	return 'BLUMENTHAL'
+    if name == 'FITZPATRICIK':
+        return 'FITZPATRICK'
     return name
 
 #local mods parsing
@@ -256,7 +266,7 @@ def populate_speeches(count, folder, next_index):
         list_of_files = os.listdir(folder_path)
         for file in list_of_files:
             if file.endswith(".txt"):
-                # print(file)
+                # log("                " + str(file))
                 if file == 'CREC-2018-03-22-pt1-PgH1769-2.txt':
                     continue
                 if file == 'CREC-2017-09-06-pt1-PgH6695.txt':
@@ -282,40 +292,47 @@ def populate_speeches(count, folder, next_index):
                         speech_count += 1
                         speeches = speeches.append(row, ignore_index=True)     
                     i += 2
-                # print('finished with file ', speech_count)
-        print("finished generating speaker-speech pairs, folder: " + folder)
+                # log('                ' + 'finished with file ' + str(speech_count))
+        log("                " + "finished generating speaker-speech pairs, folder: " + folder)
     
     collect_pairs(folder)
         
     def get_speaker_id(last_name, mods_file_path):
+
+        #hardcoded speaker_ids
+        if last_name == 'BEUTLER':
+            return 2071.0
+        if last_name == 'GRISHAM':
+            return 2146.0
+
         nonlocal speakers
         possible_speakers = speakers[speakers['last_name'] == last_name]
         if possible_speakers.shape[0] == 0:
             new_speaker = get_cong_member_info(last_name, mods_file_path)
             speakers = speakers.append(new_speaker, ignore_index=True)
-            print(speakers.shape[0])
+            # log("                " + str(speakers.shape[0]))
             speakers = speakers.sort_values('last_name')
             speakers.to_csv('updatedspeakers.csv', index=False)
-            print("wrote in new speaker")
-            print(new_speaker)
+            log("                " + "wrote in new speaker")
+            log("                " + str(new_speaker))
             return new_speaker['speaker_id']
         elif possible_speakers.shape[0] == 1:
-            # print('used existing row')
+            # log("                " + "used existing row")
             return possible_speakers.iloc[0]['speaker_id']
         else:
             mods_speaker_id = get_authority_id_from_mods(last_name, mods_file_path)
             if int(mods_speaker_id) > 100000:
-                print("speaker not found in mods: " + last_name)
+                log("                " + "speaker not found in mods: " + str(last_name))
                 return None
             matched_speaker = possible_speakers[possible_speakers['speaker_id'] == int(mods_speaker_id)]
             if matched_speaker.shape[0] == 1:
-                # print("speaker matched successfully, used existing row")
+                # log("                " + "speaker matched successfully, used existing row")
                 return matched_speaker.iloc[0]['speaker_id']
             elif matched_speaker.shape[0] == 0:
                 new_speaker = get_cong_member_info(last_name, mods_file_path)
                 speakers = speakers.append(new_speaker, ignore_index=True)
-                print("wrote in new speaker")
-                print(new_speaker)
+                log("                " + "wrote in new speaker")
+                log("                " + str(new_speaker))
                 speakers = speakers.sort_values('last_name')
                 speakers.to_csv('updatedspeakers.csv', index=False)
                 return new_speaker['speaker_id']
@@ -376,21 +393,29 @@ def populate_speeches(count, folder, next_index):
     speeches.to_csv('./parsing_results/' + 'speeches_' + str(count) + ".csv", index=False)
     bills.to_csv('./parsing_results/' + 'bills_' + str(count) + ".csv", index=False)
     
-    print("                " + "saved " + "speeches_" + str(count))
-    print("                " + "saved " + "bills_" + str(count))
+    log("saved " + "speeches_" + str(count))
+    log("saved " + "bills_" + str(count))
     
     return max(speeches['speech_id'])
     
 #running parser
 
-count = 1
-folders = os.listdir("./scraped_folders")
-print(folders)
-next_index = 0
-for folder in folders:
-    print("                " + folder)
-    next_index = populate_speeches(count, "scraped_folders/" + folder, next_index)
-    next_index += 1
-    count += 1
+try:
+    count = 1
+    folders = os.listdir("./scraped_folders")
+    folders = sorted(folders)
+    folders.remove('.DS_Store')
+    # log(str(folders))
+    next_index = 0
+    for folder in folders:
+        log("Current Folder: " + str(folder))
+        next_index = populate_speeches(count, "scraped_folders/" + folder, next_index)
+        next_index += 1
+        count += 1
+except Exception as e:
+    log('ERROR CAUGHT: ' + repr(e))
+    error_file = open("error_log.txt", "w")
+    traceback.print_exc(file=error_file)
+    log("Check error_log.txt file for traceback")
 
 
