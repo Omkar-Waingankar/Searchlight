@@ -1,0 +1,124 @@
+/*ltd-white #FFFFF3
+F2F2F2
+ltd-grey #34393A
+ltd-blue #2E6171
+ltd-lightblue #AFD9D3
+ltd-darkblue #1B3949*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Merriweather:300,300italic,700');
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+p,a,li,blockquote {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+}
+
+body {
+	background-color: #F2F2F2;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-brand{
+	font-size: 16px;
+}
+
+.navbar-fixed-top {
+	position: fixed;
+	font-size: 16px;
+	margin-bottom: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+	border: 0;
+}
+
+.team {
+	margin-top: 100px;
+	background-color: #F2F2F2;
+}
+
+.team h1 {
+	position: relative;
+	margin: 0;
+	color: #34393A;
+	font-size: 64;
+	line-height: 1.3em/52px;
+	text-align: center;
+	font-weight: 700;
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 36px;
+	/*padding: 36px;*/
+}
+
+.team .member-img {
+	width: 250px;
+  height: 250px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  transition: all 0.5s;
+}
+
+.team td {
+	padding-bottom: 60px
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+.team .info {
+    text-align: left;
+    padding-left: 20px;
+    text-justify: auto;
+}
+
+.team .team-members .team-members-row {
+	padding: 36px;
+	border-radius: 1%;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.team .team-members #omkar{
+	text-align: right;
+/*	background-color: #ccebff;*/
+}
+
+.team .team-members #nalin{
+	/*background-color: #ccebff;*/
+}
+
+.team .team-members #peter{
+	/*background-color: #dcefeb;*/
+	/*background-color: #ccebff;*/
+}
+
+.team .team-members h3 {
+	font-size: 32px;
+	color: #2E6171;
+}
+
+.team .team-members p {
+	font-size: 16px;
+}
+
+.team .team-members i {
+	border-radius: 5px;
+	color: #0077B5;
+	font-size: 36px;
+}
+
+.team .team-members #mail {
+	color: #dd4b39;
+}
+
+.team .team-members i:hover, .team .team-members #mail:hover {
+	color: white;
+}

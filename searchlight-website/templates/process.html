@@ -1,0 +1,105 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="static/assets/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="static/assets/css/process.css">
+		<title>Searchlight</title>
+	</head>
+
+
+	<body>
+
+		<div class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<a href="/" class="navbar-brand">Searchlight</a>
+
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="/query">Search</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/process">Process</a></li>
+						<li><a href="/team">Team</a></li>
+						<li><a href="/contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="process-title">
+			<div class="container">
+				<h1>PROCESS</h1>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="process-body">
+				<p> Here, we'll go in depth into our methodologies for tackling the issue
+					of turning millions of textual transcripts and metadata logs into a queryable database,
+					 so you can best understand where our information comes from.
+				</p>
+				<p>
+					We are 100% open source - feel free to check out
+					<a href="https://github.com/wangpeterw/LTD-CongressScraper"> our GitHub repo </a> and our dataset, the <a href="https://www.gpo.gov/fdsys/browse/collection.action?collectionCode=CREC"> Government Publishing Office's website!</a>
+				</p>
+			</div>
+		<div>
+
+		<div class="process-body">
+			<div class="container" style="padding-left: 0px; padding-right: 0px;">
+				<h2>SCRAPING</h2>
+
+				<div class="row">
+					<div class="col-md-4 text-box-left">
+						<p> The main tools used to extract millions of .txt and XML metadata logs from the GPO's website were
+							BeautifulSoup4, a Python library used to parse and extract data from HTML and XML, as well as Selenium's webdriver, an automated tool
+							for navigating through and clicking on links within a website.
+						<p>
+						<p>
+							The challenge with this involved being able to traverse the structure of the links on the GPO's
+							website; luckily the structure of the links is quite organized, and it looks something like this:
+						</p>
+
+						<p>
+							The structure follows as listings for links from all of the years, followed by months & days, House & Senate,
+							and then finally a single file for a specific proceeding / topic from that day.
+						</p>
+
+						
+					</div>
+					<div class="col-md-8">
+						<img id="record-img" src="static/assets/img/record2.png" style="display: block;
+						margin-left: auto;
+						margin-right: auto;
+						max-height: 100%;
+						max-width: 90%;
+						border-radius: 10px;">
+					</div>
+
+				</div>
+			</div>
+
+
+		</div>
+
+		<div class="process-body">
+			<div class="container" style="padding-left: 0px; padding-right: 0px;">
+				<h2>PARSING</h2>
+			</div>
+		</div>
+
+		<div class="process-body">
+			<div class="container" style="padding-left: 0px; padding-right: 0px;">
+				<h2>WEB APP STACK</h2>
+			</div>
+		</div>
+
+
+	</body>
+</html>

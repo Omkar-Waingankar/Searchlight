@@ -1,0 +1,209 @@
+<html>
+<head>
+	<!-- load the bootstrap css here -->
+	<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+	<link rel="stylesheet" type="text/css" href="static/assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="static/assets/css/speaker.css">
+
+</head>
+<body>
+
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+				<a href="/" class="navbar-brand">Searchlight</a>
+
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="/query">Search</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/process">Process</a></li>
+						<li><a href="/team">Team</a></li>
+						<li><a href="/contact">Contact</a></li>
+					</ul>
+				</div>
+		</div>
+	</div>
+
+<!-- 	first name
+	district state party type
+	month day year -->
+
+	<div class="query">
+		<div class="container">
+
+			<div class="query-title">
+				<h1>SEARCHLIGHT QUERY</h1>
+				<h3>Find out what your representatives are saying!</h3>
+			</div>
+
+			<br clear="all">
+
+			<div class="row filters-1">
+				<div class="col-md-6">
+					<input class="form-control" type="text" placeholder="Enter speaker last name" value="{{speaker_surname}}" id="surname"/>
+				</div>
+				<div class="col-md-6">
+					<input class="form-control" type="text" placeholder="Enter speaker first name" value="{{speaker_firstname}}" id="firstname"/>
+				</div>
+			</div>
+
+			<br clear="all">
+
+			<div class="row filters-2">
+				<div class="col-md-3">
+					<select class="form-control" id="district">
+						<option value="" selected>Congressional District</option>
+						{% for district in districts %}
+						<option value="{{district}}" {% if selected_dict['district'] == district %}selected{%endif%}>{{district}}</option>
+						{% endfor %}
+					</select>
+				</div>
+				<div class="col-md-3">
+					<select class="form-control" id="state">
+						<option value="{{state}}" selected>State</option>
+						{% for state in states %}
+						<option value="{{state}}" {% if selected_dict['state'] == state %}selected{%endif%}>{{state}}</option>
+						{% endfor %}
+					</select>
+				</div>
+				<div class="col-md-3">
+					<select class="form-control" id="party">
+						<option value="" selected>Party</option>
+						{% for party in parties %}
+						<option value="{{party}}" {% if selected_dict['party'] == party %}selected{%endif%}>{{party}}</option>
+						{% endfor %}
+					</select>
+				</div>
+				<div class="col-md-3">
+					<select class="form-control" id="type">
+						<option value="" selected>Type</option>
+						{% for type in types %}
+						<option value="{{type}}" {% if selected_dict['type'] == type %}selected{%endif%}>{{type}}</option>
+						{% endfor %}
+					</select>
+				</div>
+			</div>
+
+			<br clear="all">
+
+			<div class="row filters-3">
+				<div class="col-md-4">
+					<select class="form-control" id="month">
+						<option value="" selected>Month</option>
+						{% for month in months %}
+						<option value="{{month}}" {% if selected_dict['month'] == month %}selected{%endif%}>{{month}}</option>
+						{% endfor %}
+					</select>
+				</div>
+				<div class="col-md-4">
+					<select class="form-control" id="day">
+						<option value="">Day</option>
+						{% for day in days %}
+						<option value="{{day}}" {% if selected_dict['day'] == day %}selected{%endif%}>{{day}}</option>
+						{% endfor %}
+					</select>
+				</div>
+				<div class="col-md-4">
+					<select class="form-control" id="year">
+						<option value="">Year</option>
+						{% for year in years %}
+						<option value="{{year}}" {% if selected_dict['year'] == year %}selected{%endif%}>{{year}}</option>
+						{% endfor %}
+					</select>
+					<!-- <small>Try 2015,2016</small> -->
+				</div>
+			</div>
+
+			<br clear="all">
+
+			<div class="row">
+				<div class="col-md-4">
+					<button style="width:100%;" class="btn btn-primary" id="filter-btn"><b>Filter</b></button>
+				</div>
+				<div class="col-md-4">
+					<button style="width:100%;" class="btn btn-primary" id="clear-btn"><b>Clear</b></button>
+				</div>
+				<div class="col-md-4">
+					<button style="width:100%;" class="btn btn-primary" id="download-btn"><b>Download</b></button>
+				</div>
+			</div>
+
+			<div style="margin-top: 10px;">
+				<div class="row">
+					<div class="col-md-12 text-right">
+						<b>Hidden Fields: {{unselected_queries}}</b>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12 text-right">
+					<b>{{no_of_records}} speeches</b>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="text-center">
+					<table class="table table-striped thead-dark">
+						<thead class="text-left">
+							<td class="col-md-3">Session Title</td>
+<!-- 							<td>Month</td>
+							<td>Day</td>
+							<td>Year</td> -->
+							<td class="col-md-1">Date</td>
+							<td class="col-md-1">First Name</td>
+							<td class="col-md-1">Last Name</td>
+							<td class="col-md-1">Words</td>
+							<td class="col-md-5">Speech Text</td>
+						</thead>
+						<tbody class="text-left">
+							{% if (records is defined) and records %}
+								{% for record in records %}
+									<tr>
+										<td class="col-md-3">{{record.proceeding_title}}</td>
+										<td class="col-md-1">{{date_format(record.month, record.day, record.year)}}</td>
+										<td class="col-md-1">{{record.first_name}}</td>
+										<td class="col-md-1">{{record.last_name}}</td>
+										<td class="col-md-1">{{record.word_count}}</td>
+										<td class="col-md-5">{{record.speech_text[0:120] + " ..."}}</td>
+										<!-- This line shows just the first 120 characters and cuts it after that -->
+									</tr>
+								{% endfor %}
+									<tr>
+										<td class="col-md-3"> ... Click <a id="download-lnk">download</a> to see the full results with full speech texts! </td>
+										<td class="col-md-1"></td>
+										<td class="col-md-1"></td>
+										<td class="col-md-1"></td>
+										<td class="col-md-1"></td>
+										<td class="col-md-5"></td>
+									</tr>
+							{% else %}
+							<tr>
+								<td colspan="8">No results</td>
+							</tr>
+							{% endif %}
+						</tbody>
+					</table>
+					<hr>
+					<p>Sneak peek of your query</p>
+					<p>Note: If you spot any errors in your query, please contact us
+						<a href="/contact">here</a>
+						so we can continue to improve this database for the public. Thanks!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Load the javascript down here -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="static/assets/js/main.js"></script>
+</body>
+
+
+</html>

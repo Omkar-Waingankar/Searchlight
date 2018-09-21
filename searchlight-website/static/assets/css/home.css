@@ -1,0 +1,140 @@
+/*ltd-white #FFFFF3
+F2F2F2
+ltd-grey #34393A
+ltd-blue #2E6171
+ltd-lightblue #AFD9D3
+ltd-darkblue #1B3949*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Merriweather:300,300italic,700');
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+p,a,li,blockquote {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-brand{
+	font-size: 16px;
+}
+
+.navbar-fixed-top {
+	position: fixed;
+	font-size: 16px;
+	margin-bottom: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+	border: 0;
+}
+
+.home {
+	margin-top: 55px;
+	font-size: 100;
+	background-color: #F2F2F2;
+}
+
+.home .main-image {
+	background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    height: 100%;
+    width: 100%;
+}
+
+.home h1 {
+	position: relative;
+	margin: 0;
+	color: #1B3949;
+	/*left: 15vw;*/
+	top: 13vh;
+	font-size: 140;
+	/*line-height: 1.3em/52px;*/
+	letter-spacing: -4px;
+}
+
+.home h3 {
+	position: relative;
+	margin: 0;
+	margin-top: -10px;
+	font-size: 40px;
+	line-height: 1.3em/26px;
+	color: #34393A;
+	/*left: 15vw;*/
+	top: 13vh;
+	letter-spacing: -2px;
+}
+
+.home .querybutton p {
+	position: relative;
+	font-size: 60;
+	color: #AFD9D3;
+	/*left: 15vw;*/
+	top: 13vh;
+}
+
+.query-button {
+	text-align: center;
+	position: relative;
+	/*left: 15vw;*/
+	top: 18vh;
+	font-size: 36px;
+	height: 80px;
+	width: 180px;
+	background-color: #AFD9D3;
+	color: white;
+	border-radius: 10px;
+
+/*	margin-top: 50px;
+	padding: 20px 40px;*/
+}
+
+.query-button a {
+	position: relative;
+	top: 19px;
+	color: #34393A;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+.query-button :hover {
+	text-decoration: none;
+	color: #F2F2F2;
+	cursor: pointer;
+}
+
+/*.nav a {
+	color: #34393A;
+	text-transform: uppercase;
+	font-family: ‘Merriweather’;
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 1.3em/22px;
+}
+
+.nav .navboxes-left {
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+.nav .navboxes-right {
+	margin-bottom: 0;
+	padding-right: 0;
+}
+
+.nav .navboxes-left li {
+	padding-top: 12px;
+	display: inline;
+	padding-right: 48;
+}
+
+.nav .navboxes-right li {
+	padding-top: 12px;
+	display: inline;
+	padding-left: 48;
+}*/

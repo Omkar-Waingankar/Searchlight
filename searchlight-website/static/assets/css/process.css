@@ -1,0 +1,61 @@
+/*ltd-white #FFFFF3
+F2F2F2
+ltd-grey #34393A
+ltd-blue #2E6171
+ltd-lightblue #AFD9D3
+ltd-darkblue #1B3949*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Merriweather:300,300italic,700');
+
+body {
+	background-color: #F2F2F2;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+p,a,li,blockquote {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar a {
+    font-size: 16px;
+}
+
+.navbar-brand a {
+	font-size: 16px;
+}
+
+.navbar-fixed-top {
+	position: fixed;
+	font-size: 16px;
+	margin-bottom: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+	border: 0;
+}
+
+.process-title {
+	margin-top: 100px;
+}
+
+.process-title h1 {
+	position: relative;
+	margin: 0;
+	color: #34393A;
+	font-size: 64;
+	line-height: 1.3em/52px;
+	border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 36px;
+    text-align: center;
+}
+
+.process-body {
+	margin-top: 36px;
+}

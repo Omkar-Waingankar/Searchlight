@@ -1,0 +1,117 @@
+/*ltd-white #FFFFF3
+F2F2F2
+ltd-grey #34393A
+ltd-blue #2E6171
+ltd-lightblue #AFD9D3
+ltd-darkblue #1B3949*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Merriweather:300,300italic,700');
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+}
+
+p,a,li,blockquote, select, input, button, table, td, tr, b, label {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar a {
+    font-size: 16px;
+}
+
+.navbar-brand a {
+	font-size: 16px;
+}
+
+.navbar-fixed-top {
+	position: fixed;
+	font-size: 16px;
+	margin-bottom: 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+	border: 0;
+}
+
+.contact {
+    margin-top: 100px;
+    background-color: #F2F2F2;
+}
+
+.contact label {
+	font-size: 16;
+    font-weight: bold;
+}
+
+.contact h1 {
+    position: relative;
+    margin: 0;
+    color: #34393A;
+    font-size: 64;
+    line-height: 1.3em/52px;
+    text-align: center;
+    font-weight: 700;
+    border-bottom: 1px solid #e6e6e6;
+    padding-bottom: 36px;
+    /*padding: 36px;*/
+}
+
+.contact h2 {
+	font-size: 14;
+	font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+
+.contact #subject {
+    padding: 12px;
+}
+
+input[type=email], input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+select {
+    -webkit-appearance: menulist-button;
+    height: 44px;
+}
+
+textarea {
+    height: 200px;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.contact-form {
+    margin-top: 36px;
+}
