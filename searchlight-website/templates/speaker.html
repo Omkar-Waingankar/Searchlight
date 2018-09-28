@@ -169,8 +169,8 @@
 									<tr>
 										<td class="col-md-3">{{record.proceeding_title}}</td>
 										<td class="col-md-1">{{date_format(record.month, record.day, record.year)}}</td>
-										<td class="col-md-1">{{record.first_name}}</td>
-										<td class="col-md-1">{{record.last_name}}</td>
+										<td class="col-md-1">{{name_format(record.first_name)}}</td>
+										<td class="col-md-1">{{name_format(record.last_name)}}</td>
 										<td class="col-md-1">{{record.word_count}}</td>
 										<td class="col-md-5">{{record.speech_text[0:120] + " ..."}}</td>
 										<!-- This line shows just the first 120 characters and cuts it after that -->

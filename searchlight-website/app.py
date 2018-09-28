@@ -19,6 +19,7 @@ from flask_mail import Mail, Message
 app = flask.Flask(__name__)
 app.config.from_object(Config)
 mail = Mail(app)
+#app.config['TESTING'] = True
 
 # mail = Mail()
 # app.secret_key = 'development key'
@@ -105,6 +106,9 @@ def contact():
 @app.route('/query')
 def speakers():
 
+	month_dict = {'January': '1', 'February': '2', 'March': '3', 'April': '4', 'May': '5', 'June': '6', 'July': '7',
+             'August': '8', 'September': '9', 'October': '10', 'November': '11', 'December': '12', '':''}
+
 	format_ = request.args.get("format", None)
 
 	num_get_requests = 0
@@ -125,6 +129,9 @@ def speakers():
 	type_query = request.args.get("type", "")
 
 	month = request.args.get("month", "")
+	month = month_dict[month]
+	print(month)
+
 	day = request.args.get("day", "")
 	year = request.args.get("year", "")
 
@@ -197,6 +204,7 @@ def speakers():
 
 		if format_ == "csv":
 			all_records_query = all_records_query % (where_clause, "LIMIT 500")
+			all_records_query = all_records_query % (where_clause, "ORDER BY year, month, day")
 			cursor.execute(all_records_query, condition_tuple)
 			records_total = cursor.fetchall()
 			#flash('Downloading the first 500 records of your query! Stay tuned for the full release of searchlight, where subscribing user can download all records.')
@@ -209,7 +217,7 @@ def speakers():
 			records_count = cursor.fetchall()[0]['COUNT(first_name)']
 
 			#limited query statement to show users preview of records
-			limit_statement = "ORDER BY year DESC LIMIT 30"
+			limit_statement = "ORDER BY year DESC, month DESC, day DESC LIMIT 30"
 			all_records_query = all_records_query % (where_clause, limit_statement)
 			cursor.execute(all_records_query, condition_tuple)
 			records_total = cursor.fetchall()
@@ -228,6 +236,11 @@ def speakers():
 	districts = [x for x in range(1, 54)]
 	types = ['SENATOR', 'REPRESENTATIVE', 'DELEGATE']
 
+	def name_format(name):
+		first_char = name[0]
+		rest_name = name[1:]
+		return first_char.upper() + rest_name.lower()
+
 	selected_dict = {}
 	selected_dict["year"] = int(year) if year else None
 	selected_dict["month"] = month if month else None
@@ -238,7 +251,7 @@ def speakers():
 	selected_dict["district"] = int(district_query) if district_query else None
 
 	return flask.render_template('speaker.html', records=records_total, no_of_records=records_count,
-		speaker_firstname=speaker_firstname_raw, speaker_surname=speaker,
+		speaker_firstname=speaker_firstname_raw, speaker_surname=speaker, name_format=name_format,
 		years=years, months=months, days=days, states=states, parties=parties, districts=districts,
 		types=types, selected_dict = selected_dict, date_format=date_format, unselected_queries=", ".join(unselected_queries))
 
@@ -278,9 +291,9 @@ def first_name_format(name):
 # function to make first name Rubio
 
 def date_format(month, day, year):
-	month_dict = {'January' : '1', 'February' : '2', 'March': '3', 'April': '4', 'May': '5', 'June': '6', 'July': '7', 'August': '8', 'September': '9', 'October': '10', 'November': '11', 'December': '12'}
-	month_str = month_dict[month]
-	return month_str + '/' + str(day) + '/' + str(year)
+	# month_dict = {'January' : '1', 'February' : '2', 'March': '3', 'April': '4', 'May': '5', 'June': '6', 'July': '7', 'August': '8', 'September': '9', 'October': '10', 'November': '11', 'December': '12'}
+	# month_str = month_dict[month]
+	return str(month) + '/' + str(day) + '/' + str(year)
 if __name__ == '__main__':
 	app.debug=True
 	app.run()
