@@ -107,7 +107,7 @@ def contact():
 def speakers():
 
 	month_dict = {'January': '1', 'February': '2', 'March': '3', 'April': '4', 'May': '5', 'June': '6', 'July': '7',
-             'August': '8', 'September': '9', 'October': '10', 'November': '11', 'December': '12', '':''}
+             'August': '8', 'September': '9', 'October': '10', 'November': '11', 'December': '12'}
 
 	format_ = request.args.get("format", None)
 
@@ -129,8 +129,7 @@ def speakers():
 	type_query = request.args.get("type", "")
 
 	month = request.args.get("month", "")
-	month = month_dict[month]
-	print(month)
+	month = month_dict[month] if month else ""
 
 	day = request.args.get("day", "")
 	year = request.args.get("year", "")
