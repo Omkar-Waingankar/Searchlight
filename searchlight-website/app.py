@@ -202,8 +202,7 @@ def speakers():
 		condition_tuple = tuple(condition_tuple)
 
 		if format_ == "csv":
-			all_records_query = all_records_query % (where_clause, "LIMIT 500")
-			all_records_query = all_records_query % (where_clause, "ORDER BY year, month, day")
+			all_records_query = all_records_query % (where_clause, "ORDER BY year DESC, month DESC, day DESC LIMIT 500")
 			cursor.execute(all_records_query, condition_tuple)
 			records_total = cursor.fetchall()
 			#flash('Downloading the first 500 records of your query! Stay tuned for the full release of searchlight, where subscribing user can download all records.')
