@@ -53,11 +53,12 @@
 
 		<div class="process-body">
 			<div class="container" style="padding-left: 0px; padding-right: 0px;">
+
 				<h2>SCRAPING</h2>
 
 				<div class="row">
-					<div class="col-md-4 text-box-left">
-						<p> The main tools used to extract millions of .txt and XML metadata logs from the GPO's website were
+					<div class="col-md-12" style="margin-top: 24px;">
+					<p> The main tools used to extract millions of .txt and XML metadata logs from the GPO's website were
 							BeautifulSoup4, a Python library used to parse and extract data from HTML and XML, as well as Selenium's webdriver, an automated tool
 							for navigating through and clicking on links within a website.
 						<p>
@@ -70,33 +71,137 @@
 							The structure follows as listings for links from all of the years, followed by months & days, House & Senate,
 							and then finally a single file for a specific proceeding / topic from that day.
 						</p>
-
-						
 					</div>
-					<div class="col-md-8">
-						<img id="record-img" src="static/assets/img/record2.png" style="display: block;
+				</div>
+				<br>
+				<img id="record-img" src="static/assets/img/record2.png" style="display: block;
 						margin-left: auto;
 						margin-right: auto;
 						max-height: 100%;
 						max-width: 90%;
-						border-radius: 10px;">
-					</div>
+						border-radius: 10px;"
+				>
 
-				</div>
 			</div>
-
-
 		</div>
 
 		<div class="process-body">
 			<div class="container" style="padding-left: 0px; padding-right: 0px;">
+
 				<h2>PARSING</h2>
+
+				<div class="row">
+					<div class="col-md-12" style="margin-top: 24px;">
+					<p>
+						Now that all of the .txt transcripts had been collected, it was time to parse them speech by speech and to collect metadata (speaker name, date, proceeding title, etc). Here, the team developed a few hundred lines of Python scripts & Regex to iterate through each transcript, and then break the chunk of text into individual pieces. Below we have an example transcript:
+					</p>
+					</div>
+				</div>
+				<br>
+				<img id="record-img" src="static/assets/img/parsing1.png" style="display: block;
+						margin-left: auto;
+						margin-right: auto;
+						max-height: 100%;
+						max-width: 90%;
+						border-radius: 10px;"
+				>
+
+				<div class="row">
+					<div class="col-md-12" style="margin-top: 24px;">
+					<p>
+						You can see the chunk of text, which begins with “Mr. SMUCKER” in all capitalized letters, represents when Mr. Smucker from Pennsylvania begins speaking. In nearly all of the transcripts, this document structure represents when a new speaker begins, and makes the job of parsing effectively possible, but still difficult. Using some regex, we were able to identify unique speeches, and parse and organize them into a single array:
+					</p>
+					</div>
+				</div>
+				<br>
+				<img id="record-img" src="static/assets/img/parsing2.png" style="display: block;
+						margin-left: auto;
+						margin-right: auto;
+						max-height: 100%;
+						max-width: 90%;
+						border-radius: 10px;"
+				>
+
+				<div class="row" style="margin-top: 24px;">
+					<div class="col-md-12">
+					<p>
+						After creating a function to aggregate the last names and speeches into an array for a given transcript, a larger script along with quite a few other subroutines allowed us to iterate through the entirety of the transcripts and create such an array for every transcript, and collect other pieces of information, such as the proceeding title and date of the proceeding; all speeches collected from this individual transcripts would end up sharing this information. 
+					</p>
+					<p>
+						However, the speech text by itself is not useful without metadata, such as the, and state & party of the speaker. After parsing up all of the speeches, it was time to collect this metadata and add each row of data (speech text, speaker name, word count, etc.) to a pandas table to store our freshly parsed data.
+					</p>
+					</div>
+				</div>
+				<br>
+				<img id="record-img" src="static/assets/img/parsing3.png" style="display: block;
+						margin-left: auto;
+						margin-right: auto;
+						max-height: 100%;
+						max-width: 90%;
+						border-radius: 10px;"
+				>
+
+				<div class="row" style="margin-top: 24px;">
+					<div class="col-md-12">
+					<p>
+						How did we get this metadata? This comes from the XML files that we scraped alongside each transcript that contains metadata about each speaker that attended that proceeding. After getting the last name from a given transcript, we verify that name and locate it in a corresponding “last-name” tag in the XML log, and extract all of the corresponding metadata from that entry. Aggregating all of that information, we can place the correct data as another row within our table.
+					</p>
+					<p>
+						This covers the vast majority of our process – in reality, we not only use a “local” XML file of metadata found with each Congressional proceeding transcript, but we actually also use a master file, that sometimes contains extra information about each speaker. Based on that master file which we pre-parse, we create an additional table of speakers that contain more information about them (party, state, etc) and then upon locating a new speech in a given transcript, we verify the local XML data that we find and check if that entry is already within the speakers table; if it is, we collect that speakers information and place it into our table of speeches. If it is not present, we create a new row within our speakers table to account for a speaker not present within the master XML file.
+					</p>
+					</div>
+				</div>
+
 			</div>
 		</div>
 
 		<div class="process-body">
 			<div class="container" style="padding-left: 0px; padding-right: 0px;">
 				<h2>WEB APP STACK</h2>
+
+				<div class="row">
+					<div class="col-md-12" style="margin-top: 24px;">
+					<p>
+						After aggregating all of our parsed data into a relational pandas database of speeches & speakers, we needed to create this application to host our data so that anyone can use, query & download it. We first converted the pandas tables to a SQLite database, and then hosted the app using a Flask (Python) micro framework. We currently create a SQLite cursor and then directly access data from our database by constructing a query with “fill-in-the blanks” which we extract from client sent in query parameters, like so:
+					</p>
+					</div>
+				</div>
+				<br>
+				<img id="record-img" src="static/assets/img/web1.png" style="display: block;
+						margin-left: auto;
+						margin-right: auto;
+						max-height: 100%;
+						max-width: 90%;
+						border-radius: 10px;"
+				>
+
+				<div class="row" style="margin-top: 24px;">
+					<div class="col-md-12">
+					<p>
+						Every time a user queries from our 1.1 million speeches of data, we perform an inner join on our speakers and speeches table to only return back data that matches the filters requested. We currently have an index placed on the “speaker_id” attribute, or the field, or the Primary Key of our speakers table, to best optimize performance for our users.
+					</p>
+					</div>
+				</div>
+				<br>
+				<img id="record-img" src="static/assets/img/web2.png" style="display: block;
+						margin-left: auto;
+						margin-right: auto;
+						max-height: 100%;
+						max-width: 90%;
+						border-radius: 10px;"
+				>
+
+				<div class="row" style="margin-top: 24px; margin-bottom: 72px;">
+					<div class="col-md-12">
+					<p>
+						In the future, we look to use a cloud database & potentially microservices to send requests and retrieve data, rather than a direct access cursor, to allow us to create an automated system to update our speech & speaker database with every new session that takes place in Congress. Our next steps also include switching to an AngularJS framework to create a better user experience along with visualizations and analytics on what topics your representative has been talking about! 
+					</p>
+					<p>
+						We hope that you are as excited about the future of Searchlight as we are and appreciate your viewership.
+					</p>
+					</div>
+				</div>
+
 			</div>
 		</div>
 
